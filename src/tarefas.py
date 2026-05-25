@@ -3,14 +3,15 @@ class GerenciadorTarefas:
         self.tarefas = []
         self.proximo_id = 1
 
-    def adicionar_tarefa(self, titulo, descricao):
+   def adicionar_tarefa(self, titulo, descricao, prioridade="Normal"):
         if not titulo:
             raise ValueError("O título da tarefa é obrigatório.")
         tarefa = {
             "id": self.proximo_id,
             "titulo": titulo,
             "descricao": descricao,
-            "status": "A Fazer"
+            "status": "A Fazer",
+            "prioridade": prioridade
         }
         self.tarefas.append(tarefa)
         self.proximo_id += 1
