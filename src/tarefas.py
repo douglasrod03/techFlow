@@ -3,7 +3,7 @@ class GerenciadorTarefas:
         self.tarefas = []
         self.proximo_id = 1
 
-   def adicionar_tarefa(self, titulo, descricao, prioridade="Normal"):
+    def adicionar_tarefa(self, titulo, descricao, prioridade="Normal"):
         if not titulo:
             raise ValueError("O título da tarefa é obrigatório.")
         tarefa = {
