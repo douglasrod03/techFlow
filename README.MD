@@ -19,3 +19,7 @@ A arquitetura do projeto está dividida da seguinte forma:
 - `/src`: Código-fonte principal da aplicação e rotas do CRUD.
 - `/tests`: Scripts de testes automatizados para controle de qualidade.
 - `/docs`: Documentação teórica e diagramas UML.
+
+## ⚠️ Justificativa de Mudança de Escopo
+Durante o ciclo de desenvolvimento, o cliente solicitou uma alteração de escopo: **A adição de um sistema de prioridades (Alta, Normal, Baixa) para as tarefas**. 
+**Justificativa:** A startup de logística percebeu gargalos na operação porque a equipe não sabia quais demandas atacar primeiro. A adaptação ágil permitiu a inclusão rápida do campo "Prioridade" na estrutura da tarefa, sem interromper o fluxo de entregas.
